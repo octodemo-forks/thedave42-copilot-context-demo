@@ -1,5 +1,5 @@
 {
-  "name": "simple-node-math-api",
+  "name": "copilot-context-demo",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye",
   
   // Configure tool-specific properties.
