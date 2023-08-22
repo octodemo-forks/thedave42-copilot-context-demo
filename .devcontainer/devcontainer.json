@@ -9,7 +9,9 @@
 			"settings": {},			
 			"extensions": [
 				"dbaeumer.vscode-eslint",
-        "GitHub.copilot"
+				"GitHub.copilot",
+				"GitHub.copilot-labs",
+				"GitHub.copilot-chat"
 			]
 		},
      "codespaces": {
