@@ -16,8 +16,8 @@
 		},
      "codespaces": {
       "openFiles": [
-        "simple-node-math-api/index.js",
-        "simple-node-math-api/test/test_math_utils.js"
+        "index.js",
+        "test/test_math_utils.js"
       ]
     }
 	},
@@ -26,6 +26,6 @@
 	"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cd simple-node-math-api && npm install"
+	"postCreateCommand": "npm install"
   
 }
