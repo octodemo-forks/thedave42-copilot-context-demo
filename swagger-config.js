@@ -16,7 +16,7 @@ const swaggerConfig = {
     servers: [
       {
         // Replace with codespace url if need be. Ex. https://bthomas2622-jubilant-chainsaw-x5pxrw4g55q2996x.github.dev/
-        url: "http://localhost:3000",
+        url: "/",
       },
     ],
   },
