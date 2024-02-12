@@ -1,0 +1,7 @@
+# Create a workflow named 'Run unit tests' that runs each time someone open a pull request agaist the main branch
+# The workflow should create a job called test that uses the ubuntu-lates runner
+# the job should include a step that uses actions/checkout@v3 to checkout the code from the repository
+# the job should also include a command that install the dependencies for the app using the command 'npm ci --omit=dev'
+# the job should also include a command that runs the unit tests with the id 'test-results' using the command 'npm test', this step should set create an output variable called results, set it to the output of the 'npm test' command, and set $GITHUB_OUTPUT to the value of the results output variable
+# the job shoudl include a step that captures that output of the test command as a file called test-results.txt
+# the job should include a step that posts the contents of the text-results.txt file to the pull request as a comment
