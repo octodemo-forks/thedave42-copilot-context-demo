@@ -1,9 +1,3 @@
-// Description: This file is the entry point for the server. It sets up the server and handles requests.
-// It should load the method used by each endpoint from the corresponding file in the ./math-utils folder
-// It should ensure the data types received by the endpoint are valid for the method being called and return an error if they are not.
-// It should use the swagger-config.js file to set up the swagger documentation for the api.
-// It should use get methods to handle the requests.
-
 const express = require('express');
 // Import math utils
 const math_utils_add = require('./math-utils/math_utils_add');

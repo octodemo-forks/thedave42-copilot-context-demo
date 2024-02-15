@@ -1,7 +1,11 @@
+// Path: test/test_math_utils.js
+// Description: This file will contain tests for each of the functions in the math-utils folder.
+// It should use the Chai library for assertions.
+// It should use the Mocha library for running tests.
+
 const math_utils_add = require('../math-utils/math_utils_add');
 const math_utils_pow = require('../math-utils/math_utils_pow');
 
 const { expect } = require('chai');
 
-// write mocha tests for the functions in the math-utils directory
 
