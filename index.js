@@ -7,7 +7,6 @@
 // It should use the http get method to handle the requests.
 // The endpoints should call functions imported from the math-utils folder to implement the math logic
 // The server should listen on port 3000
-// The endpoints should validate the input fields and return an error if the input is invalid
 
 const express = require('express');
 // Import math utils
