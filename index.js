@@ -1,9 +1,13 @@
 // Path: index.js
 // Description: This file is the entry point for the server. It sets up the server and handles requests.
-// It should load the method used by each endpoint from the corresponding file in the ./math-utils folder
-// It should ensure the data types received by the endpoint are valid for the method being called and return an error if they are not.
+// It should use the express module to set up the server.
+// It should use the swagger-ui-express and swagger-jsdoc modules to set up the swagger documentation for the api.
 // It should use the swagger-config.js file to set up the swagger documentation for the api.
-// It should use get methods to handle the requests.
+// It should use swagger comments to document the api endpoints.
+// It should use the http get method to handle the requests.
+// The endpoints should call functions imported from the math-utils folder to implement the math logic
+// The server should listen on port 3000
+// The endpoints should validate the input fields and return an error if the input is invalid
 
 const express = require('express');
 // Import math utils
